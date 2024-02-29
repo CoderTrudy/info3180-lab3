@@ -1,3 +1,13 @@
 body {
     padding-top: 5rem;
 }
+.form-group {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+.required-label::after {
+    content: " (required)";
+    color: red;
+}
+.bold-label {
+    font-weight: bold;
+}
